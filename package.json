@@ -1,0 +1,17 @@
+{
+  "name": "ebookwebsite",
+  "version": "1.0.0",
+  "description": "ebook website",
+  "main": "index.js",
+  "scripts": {
+    "scssbuild": "sass --no-source-map scss:css",
+    "scsswatch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "amrit",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
+    "scss": "^0.2.4"
+  }
+}
